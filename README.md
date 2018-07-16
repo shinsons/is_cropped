@@ -2,8 +2,10 @@
 Determine if one jpeg image is a cropped version of another
 
 ## Installation
-
-`python setup.py install`
+```
+pip install -r requirements.txt
+python setup.py install
+```
 
 ## To Run Tests
 
