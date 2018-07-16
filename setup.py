@@ -2,12 +2,12 @@
 
 from setuptools import setup
 
-import main
+DESC = "Determine if one image is a cropped version of another."
 
 setup(
     name='is_cropped',
     version='0.1',
-    description=main.__doc__,
+    description=DESC,
     url='http://github.com/shinsons/waldo-shinsons',
     author='Nathen Hinson',
     author_email='nathen.hinson@gmail.com',
