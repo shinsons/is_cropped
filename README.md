@@ -8,8 +8,8 @@ python setup.py install
 ```
 
 ## NOTE:
-    If the install complains about a missing libSM library.
-    Please update this library on your host system. 
+If the install complains about a missing libSM library.
+Please update this library on your host system. 
 
 ## To Run Tests
 
