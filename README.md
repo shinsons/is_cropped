@@ -8,8 +8,9 @@ python setup.py install
 ```
 
 ## NOTE:
-If the install complains about a missing libSM library.
-Please update this library on your host system. 
+Depending on the age and or configuration of your system, you may need to update the following libraries:
+`libXext libSM libXrender`
+Running `is_cropped` without these updated will throw errors about these files.
 
 ## To Run Tests
 
