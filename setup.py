@@ -12,6 +12,7 @@ setup(
     author='Nathen Hinson',
     author_email='nathen.hinson@gmail.com',
     test_suite='tests',
+    packages=['main'],
     scripts=['bin/is_cropped'],
     zip_safe=False
 )

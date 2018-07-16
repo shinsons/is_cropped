@@ -39,10 +39,10 @@ def match(img_path1, img_path2):
     
     if numpy.median(res) > MATCH_THRESHOLD:
         min_val, max_val, min_loc, max_loc = minMaxLoc(res)
-        return u"'%s' appears to be cropped from '%s' at %s" % (tmpl_name,
+        return u"'%s' appears to be cropped from '%s' at %s\n" % (tmpl_name,
                 img_name, max_loc)
 
     else:
-        return u"'%s' does not appear to be cropped from '%s'" % (tmpl_name,
+        return u"'%s' does not appear to be cropped from '%s'\n" % (tmpl_name,
                 img_name)
 
